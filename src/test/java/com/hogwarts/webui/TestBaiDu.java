@@ -27,7 +27,7 @@ public class TestBaiDu extends WebUIBase {
      * @throws Exception
      */
     public void baiduSearch(String checkString) throws Exception {
-        testcaseName = "Baidu search UI automation test.";
+        String testcaseName = "Baidu search UI automation test.";
 
         logger.info("Start the automation test: " + testcaseName);
 
